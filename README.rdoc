@@ -1,0 +1,8 @@
+Rake Task for sorting locales keys.
+
+Without parameter, recursively sort all yaml locales under RAILS_ROOT/config/locales
+  rake i18n:sort_keys
+
+With parameter, sort only locale
+  rake i18n:sort_keys[path_to_locale]
+
