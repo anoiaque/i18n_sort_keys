@@ -1,4 +1,5 @@
 Rake Task for sorting locales keys.
+
 Put the task under lib/tasks
 
 Without parameter, recursively sort all yaml locales under RAILS_ROOT/config/locales
