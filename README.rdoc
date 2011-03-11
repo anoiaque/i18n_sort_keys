@@ -1,6 +1,10 @@
+-- Overview
 Rake Task for sorting locales keys.
 
-Put the task under lib/tasks
+Install : gem install i18n_sort_keys
+
+Then , just require it by "gem i18n_sort_keys"
+A new rake task, i18n:sort_keys will be added.
 
 Without parameter, recursively sort all yaml locales under RAILS_ROOT/config/locales
   rake i18n:sort_keys
