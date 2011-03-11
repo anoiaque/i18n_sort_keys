@@ -1,3 +1,4 @@
+require 'rake'
 require 'yaml'
 
 class Hash
@@ -16,7 +17,7 @@ end
 
 namespace :i18n do
 
-  desc "Sort locales keys in alphabetic order"
+  desc "Sort locales keys in alphabetic order. Sort all locales if no path parameter given"
   
   task :sort_keys, [:path_to_file] => :environment do |t , args|
     locales = args[:path_to_file] || Dir.glob("#{RAILS_ROOT}/config/locales/**/*.yml")
