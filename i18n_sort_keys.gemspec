@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["anoiaque@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{Sort rails locales files in lexical order}
-  s.description = %q{Sort locales keys in alphabetic order. Sort all locales if no path parameter given}
+  s.description = %q{Sort locales keys in lexical order. Sort all locales if no path parameter given}
   s.add_dependency("rake")
   
   s.rubyforge_project = "i18n_sort_keys"

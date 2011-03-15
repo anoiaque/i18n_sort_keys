@@ -18,4 +18,9 @@ Without parameter, recursively sort all yaml locales under RAILS_ROOT/config/loc
 
 With parameter, sort only one locale
   rake i18n:sort_keys[path_to_locale]
+  
+== Licence
+
+MIT Licence  
+  
 
