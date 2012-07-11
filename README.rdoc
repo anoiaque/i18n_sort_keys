@@ -1,6 +1,10 @@
 == Overview
 Rake Task for sorting locales keys.
 
+== Code Quality Metrics
+
+{<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/anoiaque/i18n_sort_keys]
+
 == Installation
 
 
